@@ -1,0 +1,9 @@
+.testimonial{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    @include respond(desktop){
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
